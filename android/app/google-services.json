@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "206800203613",
+    "project_id": "loginapp-b8025",
+    "storage_bucket": "loginapp-b8025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206800203613:android:d26e9a50f8d885da4782b4",
+        "android_client_info": {
+          "package_name": "com.example.getx_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206800203613-msn2u4kkmtagoqcgqnd2nmk9cfdf8vuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getx_login",
+            "certificate_hash": "d60870f2825e602ac9bb2b9575442ae957f1446f"
+          }
+        },
+        {
+          "client_id": "206800203613-dg64dd13h1bu4dm2ihaeohfass3jrbq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYchn6ORSb2wNPzjHDQAX61cPUfF5xyr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206800203613-dg64dd13h1bu4dm2ihaeohfass3jrbq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206800203613:android:601059334deb5d764782b4",
+        "android_client_info": {
+          "package_name": "com.example.longinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206800203613-7th1jl35rt0gbngnmcqhjee39u4h2bk7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.longinapp",
+            "certificate_hash": "8c5680c92f8d6454744079101761167f4f067fed"
+          }
+        },
+        {
+          "client_id": "206800203613-vf33b71v6bbskcagvecilhot99q2bi4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.longinapp",
+            "certificate_hash": "d60870f2825e602ac9bb2b9575442ae957f1446f"
+          }
+        },
+        {
+          "client_id": "206800203613-dg64dd13h1bu4dm2ihaeohfass3jrbq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYchn6ORSb2wNPzjHDQAX61cPUfF5xyr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206800203613-dg64dd13h1bu4dm2ihaeohfass3jrbq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
