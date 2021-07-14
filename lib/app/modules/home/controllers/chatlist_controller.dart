@@ -1,10 +1,10 @@
+
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:get/get.dart';
 import 'package:getx_login/app/modules/home/controllers/home_controller.dart';
 import 'package:getx_login/app/routes/app_pages.dart';
 
-class WelcomeController extends GetxController {
+class ChatlistController extends GetxController{
   HomeController homeController = Get.find<HomeController>();
   late User user;
   @override
@@ -21,16 +21,7 @@ class WelcomeController extends GetxController {
   @override
   void onClose() {}
 
-  void routeChatList(){
-    Get.toNamed(Routes.CHATLIST,arguments: user);
-  }
-  void logout() async {
-
-    await FacebookAuth.instance.logOut();
-    await homeController.firebaseAuth.signOut();
-    await homeController.googleSign.disconnect();
-    await homeController.firebaseAuth.signOut();
-
-
+  void routeChatScreen(){
+    Get.toNamed(Routes.CHATSCREEN,arguments: user);
   }
 }

@@ -6,10 +6,14 @@ abstract class Routes {
   static const LOGIN = _Paths.LOGIN;
   static const HOME = _Paths.HOME;
   static const WELCOME = _Paths.WELCOME;
+  static const CHATLIST = _Paths.CHATLIST;
+  static const CHATSCREEN = _Paths.CHATSCREEN;
 }
 
 abstract class _Paths {
   static const LOGIN = '/login';
   static const HOME = '/home';
   static const WELCOME = '/welcome';
+  static const CHATLIST = '/chatlist';
+  static const CHATSCREEN = '/chatscreen';
 }

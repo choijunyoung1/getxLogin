@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:get/get.dart';
 import 'package:getx_login/app/modules/home/controllers/welcome_controller.dart';
+import 'package:getx_login/app/modules/home/views/chatlist_view.dart';
+import 'package:getx_login/app/routes/app_pages.dart';
 
 class WelcomeView extends GetView<WelcomeController> {
   @override
@@ -51,6 +53,21 @@ class WelcomeView extends GetView<WelcomeController> {
                 onPressed: () {
 
                   controller.logout();
+                },
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            ConstrainedBox(
+              constraints: BoxConstraints.tightFor(width: 120),
+              child: ElevatedButton(
+                child: Text(
+                  "Chat",
+                  style: TextStyle(fontSize: 16, color: Colors.black),
+                ),
+                onPressed: () {
+                  controller.routeChatList();
                 },
               ),
             ),
